@@ -1,4 +1,8 @@
 <#
+DISCLAIMER
+This script is provided as-is, for demonstration purposes only.
+Not supported by Microsoft.
+
 .SYNOPSIS
 Exports recorded Power Automate desktop-flow executions across Power Platform
 environments.
