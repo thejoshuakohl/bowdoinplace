@@ -1,5 +1,9 @@
 # Unmanaged developer environment premium scan
 
+DISCLAIMER
+This script is provided as-is, for demonstration purposes only.
+Not supported by Microsoft.
+
 Microsoft is making developer environments managed, so they will no longer grant premium
 features without a premium license. This script lists the **canvas apps and cloud flows in
 unmanaged developer environments that use premium features**, and shows whether each owner
