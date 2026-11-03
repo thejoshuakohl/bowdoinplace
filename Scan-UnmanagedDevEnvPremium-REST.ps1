@@ -1,6 +1,7 @@
 # Lists apps and flows using premium features in UNMANAGED developer environments.
 # Usage: .\Scan-UnmanagedDevEnvPremium-REST.ps1 -TenantId <tenant id or domain>
 # Auth: Azure CLI device-code sign-in (done automatically with -TenantId). No PowerApps modules needed.
+# DISCLAIMER This script is provided as-is, for demonstration purposes only. Not supported by Microsoft.
 param(
     [string]$TenantId,            # tenant (GUID or domain) to scan; signs in with device code if not already signed into it
     [string]$OutCsv = ".\Unmanaged-DevEnv-Premium-$(Get-Date -Format yyyyMMdd).csv",
