@@ -1,4 +1,9 @@
 <#
+
+DISCLAIMER
+This script is provided as-is, for demonstration purposes only.
+Not supported by Microsoft.
+
 .SYNOPSIS
   Previews the impact of adding environment(s) to a DLP (data) policy, using the Power Platform inventory.
 
