@@ -1,6 +1,9 @@
 # Test-DlpPolicyImpact.ps1
 
 Previews which **apps, flows and agents** would violate a DLP (data) policy **before** you apply it to an environment. Output is a spreadsheet listing each resource (name, ID, type, owner name and email) and the connector that causes the violation.
+DISCLAIMER
+This script is provided as-is, for demonstration purposes only.
+Not supported by Microsoft.
 
 ## How it works
 1. Reads the DLP policy (from the tenant, or from a saved JSON file) and builds the Business / Non-business / Blocked connector lists. Unlisted connectors take the policy's default group.
