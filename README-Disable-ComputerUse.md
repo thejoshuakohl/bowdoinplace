@@ -1,7 +1,9 @@
 # Disable-ComputerUse-AllEnvironments.ps1
 
 Turns off Copilot Studio **computer use** in every Power Platform environment that has a Dataverse database, and writes a CSV of what happened.
-
+DISCLAIMER
+This script is provided as-is, for demonstration purposes only.
+Not supported by Microsoft.
 It sets the environment setting `iscomputeruseinmcsenabled` to `false` (the method Microsoft documents: `pac env update-settings`), then reads it back to confirm.
 
 ## Prerequisites
