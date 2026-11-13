@@ -2,7 +2,10 @@
 .SYNOPSIS
   Disables Copilot Studio "computer use" (iscomputeruseinmcsenabled) in every Power Platform environment that has Dataverse.
 
-.DESCRIPTION
+  DISCLAIMER
+  This script is provided as-is, for demonstration purposes only.
+  Not supported by Microsoft.
+  .DESCRIPTION
   1. Lists environments through the Power Platform admin API (az CLI sign-in).
   2. For each environment with a Dataverse instance, reads the setting with PAC CLI, sets it to false, and reads it back to verify.
   3. Writes a CSV of results. Environments that can't be changed (no Dataverse, disabled, no access) are reported, not fatal.
